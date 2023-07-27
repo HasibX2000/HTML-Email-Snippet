@@ -1,0 +1,26 @@
+{
+  "name": "html-email-snippet",
+  "displayName": "HTML Email Snippet",
+  "description": "Easy html email template design block",
+  "version": "1.0.1",
+  "publisher": "akonmhasib",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "icon": "icon.jpg",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
