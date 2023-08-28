@@ -1,14 +1,14 @@
 {
-  "name": "html-email-snippet",
-  "displayName": "HTML Email Snippet",
+  "name": "email-template-secret-snippets",
+  "displayName": "Snippets For HTML Email Template Design",
   "description": "Easy html email template design block",
-  "version": "1.0.1",
-  "publisher": "akonmhasib",
+  "version": "1.0.0",
+  "publisher": "Akon M Hasib",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "#"
   },
-  "icon": "icon.jpg",
+  "icon": "Icon.ico",
   "engines": {
     "vscode": "^1.42.0"
   },
@@ -22,5 +22,8 @@
         "path": "./snippets/snippets.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }
